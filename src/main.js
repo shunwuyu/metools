@@ -15,7 +15,7 @@ Object.keys(filters).forEach(e => Vue.filter(e, filters[e]))
 Object.keys(components).forEach(e => Vue.component(e, components[e]));
 
 initVue();
-
+console.log('pizza');
 function initVue() {
   return new Vue({
     router,
