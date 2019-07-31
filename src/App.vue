@@ -1,5 +1,6 @@
 <template>
      <div class="layui-layout layui-layout-admin"  id="app">
+        <p>I See!!!!</p>
         <div class="layui-header ymheader">
             <a @click="$options.filters.openRoute('/')">
                 <img class="logo layui-circle" v-if="siteInfo.LogoUrl" :src="siteInfo.LogoUrl">
